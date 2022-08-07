@@ -1,5 +1,17 @@
 .App {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.App input{
+  margin-top: 20px;
+  width: 350px;
+  height: 40px;
+  font-size: 20px;
+  padding-left: 10px;
 }
 
 .App-logo {
@@ -11,6 +23,11 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+p{
+  margin: 10px;
+  font-size: 18px;
 }
 
 .App-header {
